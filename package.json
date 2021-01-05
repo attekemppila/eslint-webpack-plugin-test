@@ -1,0 +1,20 @@
+{
+  "name": "eslint-webpack-plugin-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "webpack": "cross-env NODE_ENV=production webpack",
+    "webpack:watch": "cross-env NODE_ENV=development webpack --watch",
+    "webpack:serve": "cross-env NODE_ENV=development webpack serve"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "eslint": "7.17.0",
+    "eslint-webpack-plugin": "2.4.1",
+    "webpack": "4.44.2",
+    "webpack-cli": "4.3.1",
+    "webpack-dev-server": "3.11.1"
+  }
+}
